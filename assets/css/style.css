@@ -16,7 +16,8 @@ ul {
   }
   body {
       width: 960px;
-      margin: 0px 240px;
+      margin: 0px 300px;
+      color: #777777;
   }
   .name {
     width: 220px;
@@ -27,3 +28,24 @@ ul {
   .info {
     color: #4aaaa5
   }
+  a:link {
+    text-decoration: none;
+    color:#cccccc;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #cccccc;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    background-color:#808080;
+    color: #cccccc;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #cccccc;
+  }
+ 
