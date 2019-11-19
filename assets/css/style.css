@@ -18,3 +18,12 @@ ul {
       width: 960px;
       margin: 0px 240px;
   }
+  .name {
+    width: 220px;
+    padding: 25px;
+    background-color: #4aaaa5;
+    color: white;
+  }
+  .info {
+    color: #4aaaa5
+  }
