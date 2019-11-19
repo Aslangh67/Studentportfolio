@@ -18,9 +18,13 @@ ul {
       width: 960px;
       margin: 0px 300px;
       color: #777777;
+      font-family: :'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      background-image:  url("me.jpg");
+      background-repeat:  repeat;
+      background-color: #cccccc;
   }
   .name {
-    width: 220px;
+    width: 260px;
     padding: 25px;
     background-color: #4aaaa5;
     color: white;
@@ -53,5 +57,13 @@ ul {
   }
   header {
     background-color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
   }
- 
+ hr {
+   color: #777777;
+ }
+ img { 
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 4px;
+ }
