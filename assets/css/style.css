@@ -48,4 +48,10 @@ ul {
     text-decoration: none;
     color: #cccccc;
   }
+  .back {
+    background-color: white;
+  }
+  header {
+    background-color: white;
+  }
  
