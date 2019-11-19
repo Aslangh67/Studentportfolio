@@ -1,3 +1,31 @@
+
+/* General */
+ body {
+  width: 960px;
+  margin: 0px auto;
+  color: #777777;
+  font-family: :'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image:  url("assets\images\__MACOSX\concrete-texture\concrete-texture.png");
+  background-repeat:  repeat;
+  background-color: #cccccc;
+ }
+   .name {
+    width: 260px;
+    padding: 25px;
+    background-color: #4aaaa5;
+    color: white;
+  }
+  .back {
+    background-color: white;
+  }
+  header {
+    background-color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+ hr {
+   color: #777777;
+ }
+ /* Floating nav bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -14,24 +42,7 @@ ul {
     display: block;
     padding: 8px;
   }
-  body {
-      width: 960px;
-      margin: 0px 300px;
-      color: #777777;
-      font-family: :'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-      background-image:  url("me.jpg");
-      background-repeat:  repeat;
-      background-color: #cccccc;
-  }
-  .name {
-    width: 260px;
-    padding: 25px;
-    background-color: #4aaaa5;
-    color: white;
-  }
-  .info {
-    color: #4aaaa5
-  }
+
   a:link {
     text-decoration: none;
     color:#cccccc;
@@ -52,18 +63,16 @@ ul {
     text-decoration: none;
     color: #cccccc;
   }
-  .back {
-    background-color: white;
+ 
+  /* Contact.html */
+  .info {
+    color: #4aaaa5
   }
-  header {
-    background-color: white;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-  }
- hr {
-   color: #777777;
- }
+
+/* Index.info */
  img { 
   float: left;
+  margin-top: 12px;
   margin-right: 15px;
   margin-bottom: 4px;
  }
