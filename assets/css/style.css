@@ -34,11 +34,13 @@ body {
     }
    hr {
      color: #777777;
-     margin: 0px;
+     margin: 0px 0px 20px 0px;
+     
    }
    h1 {
      margin: 0px;
      padding: 0px;
+     
    }
   .bottom {
     width: 960px;
@@ -54,35 +56,50 @@ body {
     width: 100%;
   }
    .portfolio {
-     border-right:#777777 ;
-     border-left: #777777;
+    border-top-style: hidden;
+    border-right-style: ridge;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-width: .5px;
+   }
+   .about {
+    border-top-style: hidden;
+    border-right-style: ridge;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-width: .5px;
    }
    /* Floating nav bar */
+   a {
+     padding:0px 5px;
+   }
     
     a:link {
       text-decoration: none;
-      color:#cccccc;
+      color:#777777;
     }
     
     a:visited {
       text-decoration: none;
-      color: #cccccc;
+      color: #777777;
     }
     
     a:hover {
       text-decoration: none;
       background-color:#808080;
-      color: #cccccc;
+      color: #777777;
     }
     
     a:active {
       text-decoration: none;
-      color: #cccccc;
+      color: #777777;
     }
    
     /* Contact.html */
     .info {
-      color: #4aaaa5
+      color: #4aaaa5;
+      margin : 0px 0px 20px 0px;
+
     }
     input {
       width: 100%;
@@ -109,11 +126,19 @@ body {
   /* Index.info */
    img { 
     float: left;
-    margin-top: 12px;
-    margin-right: 15px;
-    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+   }
+   .text-area {
+     margin-top: 12px;
    }
    /* footer */
-   footer {
+   .top-footer {
      border-top: 8px solid #4aaaa5;
+    
+   }
+   .bottom-footer {
+    border-top: 40px solid #666666;
+   
    }
