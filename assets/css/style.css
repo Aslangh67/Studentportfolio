@@ -53,7 +53,10 @@ body {
     margin: 0px;
     width: 100%;
   }
-   
+   .portfolio {
+     border-right:#777777 ;
+     border-left: #777777;
+   }
    /* Floating nav bar */
     
     a:link {
