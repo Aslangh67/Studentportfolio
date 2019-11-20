@@ -89,7 +89,7 @@ body {
       color: #777777;
     }
     
-    a:hover {
+    .link-container a:hover {
       text-decoration: none;
       background-color:#808080;
       color: #777777;
@@ -148,5 +148,11 @@ body {
      height: 5vh;
      color:white;
      text-align:center;
+     
+   }
+   .pics {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
      
    }
