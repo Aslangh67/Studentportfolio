@@ -50,8 +50,8 @@ body {
     padding: 40px 20px;
     margin: 49px auto;
     box-sizing: border-box;
-    height: 80vh;
-    overflow: auto;
+    min-height: 80vh;
+    
     
   }
   .div {
