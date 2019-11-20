@@ -26,6 +26,8 @@ body {
       display: flex;
       justify-content: space-between;
       margin: 0px auto;
+      height: 12vh;
+      
       
     }
     .link-container {
@@ -48,6 +50,8 @@ body {
     padding: 40px 20px;
     margin: 49px auto;
     box-sizing: border-box;
+    height: 70vh;
+    overflow: auto;
   }
   .div {
     background-color: white;
@@ -130,15 +134,15 @@ body {
     margin-right: 10px;
     margin-bottom: 6px;
    }
+   
    .text-area {
      margin-top: 12px;
    }
    /* footer */
-   .top-footer {
+   .footer {
      border-top: 8px solid #4aaaa5;
-    
-   }
-   .bottom-footer {
-    border-top: 40px solid #666666;
-   
+     background-color:#666666 ;
+     width: 100%;
+     height: 10vh;
+     
    }
