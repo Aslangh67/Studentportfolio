@@ -1,78 +1,116 @@
 
 /* General */
- body {
-  width: 960px;
-  margin: 0px auto;
-  color: #777777;
-  font-family: :'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  background-image:  url("assets\images\__MACOSX\concrete-texture\concrete-texture.png");
-  background-repeat:  repeat;
-  background-color: #cccccc;
- }
-   .name {
-    width: 260px;
-    padding: 25px;
-    background-color: #4aaaa5;
-    color: white;
-  }
-  .back {
-    background-color: white;
-  }
-  header {
-    background-color: white;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-  }
- hr {
-   color: #777777;
- }
- /* Floating nav bar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+* {
+  padding: 0px;
+margin: 0px;}
+body {
     
+    box-sizing: border-box;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image:  url("../images/concrete-texture.png");
+    background-repeat:  repeat;
+    background-color: #cccccc;
+   }
+     .name {
+      width: 260px;
+      padding: 25px;
+      background-color: #4aaaa5;
+      color: white;
+      margin: 0px;
+    }
+    header {
+      background-color: white;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      width:960px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0px auto;
+      
+    }
+    .link-container {
+      align-self:center;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+   hr {
+     color: #777777;
+     margin: 0px;
+   }
+   h1 {
+     margin: 0px;
+     padding: 0px;
+   }
+  .bottom {
+    width: 960px;
+    background-color: white;
+    padding: 40px 20px;
+    margin: 49px auto;
+    box-sizing: border-box;
   }
+  .div {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+   
+   /* Floating nav bar */
+    
+    a:link {
+      text-decoration: none;
+      color:#cccccc;
+    }
+    
+    a:visited {
+      text-decoration: none;
+      color: #cccccc;
+    }
+    
+    a:hover {
+      text-decoration: none;
+      background-color:#808080;
+      color: #cccccc;
+    }
+    
+    a:active {
+      text-decoration: none;
+      color: #cccccc;
+    }
+   
+    /* Contact.html */
+    .info {
+      color: #4aaaa5
+    }
+    input {
+      width: 100%;
+      padding: 6px 10px;
+      margin: 4px 0;
+      box-sizing: border-box;
+    }
+    .submit {
+      width: 15%;
+      color: white;
+      background-color:#4aaaa5 ;
+      box-sizing: border-box;
+    }
+  textarea{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    }
+    form {
+      padding: 40px 0px 0px 0px;
+    }
   
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    padding: 8px;
-  }
-
-  a:link {
-    text-decoration: none;
-    color:#cccccc;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color: #cccccc;
-  }
-  
-  a:hover {
-    text-decoration: none;
-    background-color:#808080;
-    color: #cccccc;
-  }
-  
-  a:active {
-    text-decoration: none;
-    color: #cccccc;
-  }
- 
-  /* Contact.html */
-  .info {
-    color: #4aaaa5
-  }
-
-/* Index.info */
- img { 
-  float: left;
-  margin-top: 12px;
-  margin-right: 15px;
-  margin-bottom: 4px;
- }
+  /* Index.info */
+   img { 
+    float: left;
+    margin-top: 12px;
+    margin-right: 15px;
+    margin-bottom: 4px;
+   }
+   /* footer */
+   footer {
+     border-top: 8px solid #4aaaa5;
+   }
