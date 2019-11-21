@@ -113,6 +113,7 @@ body {
       box-sizing: border-box;
     }
     .submit {
+      border:none;
       width: 15%;
       color: white;
       background-color:#4aaaa5 ;
@@ -130,7 +131,7 @@ body {
     }
   
   /* Index.info */
-   img { 
+   .my-image { 
     float: left;
     margin-top: 4px;
     margin-right: 10px;
@@ -156,3 +157,24 @@ body {
      flex-wrap: wrap;
      
    }
+
+   .pic-text {
+     position: relative;
+     bottom: 70px;
+     left:5px;
+     background-color: gray;
+     height: 30px;
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     color: rgb(99, 13, 48);
+     align-items: center;
+     opacity: .8;
+     
+   }
+
+   .my-text{
+     text-shadow: 1px 1px 8px black;
+     
+   }
+
